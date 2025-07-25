@@ -31,6 +31,11 @@ The following options are available when exporting to 3MF:
 * Apply modifiers: Apply the modifiers to the mesh data before exporting. This embeds these modifiers permanently in the file. If this is disabled, the unmodified meshes will be saved to the 3MF file instead.
 * Precision: Number of decimals to use for coordinates in the 3MF file. Greater precision will result in a larger file size.
 
+> **Note:**
+> 
+> Exporting as .3MF requires all objects in your Blender project to have a material.
+
+
 Scripting
 ----
 From a script, you can import a 3MF mesh by executing the following function call:
